@@ -26,13 +26,13 @@ return (
          <>
   <div className="flex flex-col items-center mt-20">
     <div className="grid w-full max-w-sm items-center gap-1.5">
-      <label className="text-gray-400 dark:text-gray-300">Pokemon Name</label>
+      <label className="text-gray-400 dark:text-gray-300">Search Pokemon Name</label>
       <input
         type="text"
         value={searchText}
         autoComplete="off"
         id="pokemonName"
-        placeholder="Charizard, Pikachu, etc."
+        placeholder="Charmeleon, Pikachu, etc."
         onChange={(e) => setSearchText(e.target.value)}
         className="mt-1 block w-full rounded-md border border-gray-300 dark:border-gray-600 px-4 py-2 text-gray-300 dark:text-white focus:border-blue-500 focus:ring-blue-500"
       />
